@@ -11,6 +11,7 @@
     font-weight: 400;
     color: #005DA1 !important;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .bodyContent {
@@ -26,6 +27,7 @@
 .contentBar .likes {
     text-align: right;
     margin-right: 16px;
+    cursor: pointer;
 }
 
 .buttonWrap {
@@ -116,4 +118,5 @@
 
 .comments {
     margin-left: 16px;
+    cursor: pointer;
 }
