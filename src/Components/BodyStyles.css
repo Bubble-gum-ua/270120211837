@@ -1,0 +1,119 @@
+.paperFirst {
+    box-shadow: none !important;
+    margin: 20px 5px 11px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.paperSecond {
+    box-shadow: none !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #005DA1 !important;
+    text-decoration: underline;
+}
+
+.bodyContent {
+    padding: 11px 20px 22px 20px;
+}
+
+.contentBar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contentBar .likes {
+    text-align: right;
+    margin-right: 16px;
+}
+
+.buttonWrap {
+    text-align: center;
+
+}
+
+.button {
+    background-color: #FDD639;
+    border: none;
+    border-radius: 23px;
+    margin: 23px 104px 34px 104px;
+    padding: 13px 43px 13px 43px;
+    max-width: 281px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #DADADA;
+}
+
+.inputWrapp {
+    text-align: center;
+}
+
+.inputWrapp textarea {
+    max-width: 447px;
+    border: 1px solid black;
+    width: -webkit-fill-available;
+    max-height: 63px;
+    height: 100%;
+    margin: 28px 18px 0 18px;
+}
+
+.inputArea {
+    background-color: #F2F2F2;
+    max-width: 489px;
+    width: 100%;
+}
+
+.namePost {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.datePost {
+    font-weight: 400;
+    font-size: 11px;
+    color: gray;
+    margin-left: 15px;
+
+}
+
+.messagePost {
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F2FBFF;
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+.messagePost:after, .messagePost:before {
+    bottom: 100.5%;
+    left: 10%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.messagePost:after {
+    border-color: rgba(242, 251, 255, 0);
+    border-bottom-color: #F2FBFF;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.messagePost:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #000000;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+.comments {
+    margin-left: 16px;
+}
